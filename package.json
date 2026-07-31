@@ -1,0 +1,21 @@
+{
+  "name": "yartx-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sandbox": "ampx sandbox",
+    "sandbox:once": "ampx sandbox --once",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.24.0",
+    "@aws-amplify/backend-cli": "^1.9.0",
+    "@types/node": "^25.9.5",
+    "aws-cdk-lib": "^2.244.0",
+    "constructs": "^10.8.0",
+    "esbuild": "^0.28.1",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3"
+  }
+}
